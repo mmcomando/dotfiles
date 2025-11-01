@@ -1,11 +1,20 @@
 theme = "monokai_pro_machine"
 
-[editor.whitespace]
-render = "all"
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+nbsp = "all"
+nnbsp = "all"
+newline = "none"
 
 [editor.indent-guides]
 render = true
 skip-levels = 1
+
+[editor.auto-save]
+# after-delay.enable = true
+focus-lost = true
+after-delay.timeout = 3000 
 
 [keys.normal]
 n = "move_char_left"
@@ -25,10 +34,17 @@ I = "open_above"
 N = "search_prev"
 O = "search_next"
 
+A-n = "select_prev_sibling"
+A-o = "select_next_sibling"
+A-e = "shrink_selection"
+A-i = "expand_selection"
+C-n = "jump_backward"
+C-o = "jump_forward"
+
 # C-s = ":w"
 # C-o = ":open ~/.config/helix/config.toml"
 C-d = ["search_selection", "extend_search_next"]
-C-r = [":w", ":config-reload"]
+C-r = [":reload"]
 
 [keys.normal.g]
 k = "no_op"
@@ -37,7 +53,6 @@ h = "no_op"
 l = "no_op"
 n = "goto_line_start"
 o = "goto_line_end"
-
 
 [keys.select]
 n = "extend_char_left"
@@ -53,6 +68,15 @@ L = "insert_at_line_start"
 E = "open_below"
 I = "open_above"
 C-d = ["search_selection", "extend_search_next"]
+
+A-n = "select_prev_sibling"
+A-o = "select_next_sibling"
+A-e = "shrink_selection"
+A-i = "expand_selection"
+
+[keys.select.g]
+n = "goto_line_start"
+o = "goto_line_end"
 
 # view mode
 [keys.normal.z]

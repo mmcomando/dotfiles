@@ -1,7 +1,7 @@
-[theme]
-theme = "solarized-dark"
-[icons]
-icons = "awesome5"
+# [theme]
+# theme = "solarized-dark"
+# [icons]
+# icons = "awesome5"
 
 [[block]]
 block = "disk_space"
@@ -24,28 +24,29 @@ info = 70
 block = "amd_gpu"
 format = " GPU:$utilization ($vram_used/$vram_total)"
 
-[[block]]
-block = "net"
+# [[block]]
+# block = "net"
 
-[[block]]
-block = "sound"
-driver = "pulseaudio"
-[[block.click]]
-button = "left"
-cmd = "pavucontrol"
+# [[block]]
+# block = "sound"
+# driver = "pulseaudio"
+# [[block.click]]
+# button = "left"
+# cmd = "pavucontrol"
 
 [[block]]
 block = "time"
 format = "$icon $timestamp.datetime(f:'%a %d/%m %R')"
 
-[[block]]
-block = "toggle"
-format = " OFF "
-command_state = "false"
-command_on = "nwgbar"
-command_off = "nwgbar"
+# [[block]]
+# block = "toggle"
+# format = " OFF "
+# command_state = "false"
+# command_on = "nwgbar"
+# command_off = "nwgbar"
 
 # [[block]]
 # block = "custom"
 # command = "uname -r"
 # interval = "once"
+
