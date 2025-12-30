@@ -1,0 +1,5 @@
+arch = [
+  "i3status-rust",
+  "sway", "wmenu",
+  
+]

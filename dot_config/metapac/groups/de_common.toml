@@ -1,0 +1,8 @@
+arch = [
+  # UI configuration tools
+  "pavucontrol",
+  # Generic UI tools
+  "firefox",
+  "rofi",
+  "dolphin",
+]

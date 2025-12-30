@@ -1,0 +1,9 @@
+arch = [
+  "audacity",
+  "gimp",
+  "git",
+  "konsole",
+  "meld",
+  "mesa-utils",
+  "obs-studio",
+]

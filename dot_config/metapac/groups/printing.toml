@@ -1,0 +1,5 @@
+arch = [
+  "cups",
+  "cups-filters",
+  "cups-pdf",
+]

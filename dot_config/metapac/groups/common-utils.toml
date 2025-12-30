@@ -1,0 +1,34 @@
+arch = [
+  # Core tools
+  "rsync",
+  "sudo",
+  "wget",
+  "which",
+  "diffutils",
+  # HW related tools
+  "hwdetect",
+  "hwinfo",
+  "usbutils",
+  "cpupower",
+  # Archives
+  "unrar",
+  "unzip",
+  "zip",
+
+  # Configuration
+  "chezmoi",
+  # Generic CLI tools
+  "btop",
+  "ripgrep",
+  # Programming languages
+  "rustup",
+  "perl",
+  "uv",
+  "python",
+  # Editors
+  "vi",
+  "vim",
+  "nano",
+  "helix",
+
+]
