@@ -1,9 +1,14 @@
 arch = [
+  # Sound editiing
   "audacity",
+  # Video editing
+  "obs-studio",
+  "kdenlive",
+  # Graphic editing
   "gimp",
+  # Other
   "git",
   "konsole",
   "meld",
   "mesa-utils",
-  "obs-studio",
 ]

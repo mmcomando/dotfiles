@@ -1,15 +1,16 @@
 arch = [
   # Core tools
+  "diffutils",
+  "less",
   "rsync",
   "sudo",
   "wget",
   "which",
-  "diffutils",
   # HW related tools
+  "cpupower",
   "hwdetect",
   "hwinfo",
   "usbutils",
-  "cpupower",
   # Archives
   "unrar",
   "unzip",
@@ -21,14 +22,13 @@ arch = [
   "btop",
   "ripgrep",
   # Programming languages
-  "rustup",
   "perl",
-  "uv",
   "python",
+  "rustup",
+  "uv",
   # Editors
-  "vi",
-  "vim",
-  "nano",
   "helix",
+  "nano",
+  "vim",
 
 ]
